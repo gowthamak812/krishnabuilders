@@ -1,0 +1,159 @@
+.property-results {
+    padding: 100px;
+
+    .property-card {
+        overflow: hidden;
+        height: 500px;
+        margin-top: 50px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        border-radius: 8px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        .property-images {
+            display: flex;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+
+            .large-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .thumbnails {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100%;
+
+                img {
+                    width: 100%;
+                    height: 50%;
+                    object-fit: cover;
+                    margin-bottom: 2px;
+                    margin-left: 2px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+
+        .property-info {
+            position: relative;
+            background-color: #fff;
+            padding: 40px;
+            .like-icon {
+                position: absolute;
+                top: 10px;
+                right: 20px;
+                font-size: 30px;
+                cursor: pointer;
+                color: #6c757d;
+                &:hover {
+                    color: red;
+                }
+            }
+            .facilities{
+                margin-top: 20px;
+                span {
+                    margin-right: 20px;
+                    img {
+                        margin-bottom: 10px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .property-title {
+                font-weight: bold;
+                color: red;
+            }
+
+            .property-price {
+                font-size: 1.5rem;
+                color: #6c757d; // text-muted color
+            }
+
+            .property-description,
+            .property-facilities {
+                font-size: 1.2rem;
+                line-height: 1.5;
+            }
+            .details-button {
+                margin-top: 20px;
+                font-size: 1.2rem;
+                background-color: red;
+                border: none;
+                position: absolute;
+                bottom: 30px;
+            }
+        }
+    }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+    // Tablet
+    .property-results {
+        .property-card {
+            flex-direction: column;
+            margin-top: 30px;
+            .property-images {
+                margin-bottom: 20px;
+
+                .large-image {
+                    width: 100%;
+                }
+            }
+
+            .property-info {
+                padding: 20px;
+            }
+            &:first-child{
+                margin-top: 80px;
+            }
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+
+    // Mobile
+    .property-results {
+        padding: 20px;
+
+        .property-card {
+            height: auto;
+
+            .property-images {
+                flex-direction: column;
+
+                .large-image img {
+                    height: auto;
+                }
+
+                .thumbnails {
+                    display: none; // Hide the thumbnail images on mobile
+                }
+            }
+
+            .property-info {
+                padding: 20px;
+
+                .details-button {
+                    position: relative;
+                    bottom: 0;
+                }
+            }
+        }
+    }
+}
