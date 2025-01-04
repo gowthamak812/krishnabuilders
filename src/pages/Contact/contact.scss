@@ -1,0 +1,46 @@
+.mycontact {
+    position: relative;
+
+    .myform {
+        padding: 45px;
+
+        form {
+            .form-floating {
+
+                input,
+                textarea {
+                    box-shadow: none;
+                }
+
+                label {
+                    padding: 0.75rem 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+
+    .mycontact {
+        .myform {
+            padding-top: 30px !important;
+            padding: 30px;
+        }
+    }
+
+    .form-floating {
+        label {
+            padding: 1rem 1rem !important;
+        }
+    }
+}
+
+
+@media (max-width: 576px) {
+    .mycontact {
+        .myform {
+            padding: 10px;
+        }
+    }
+}

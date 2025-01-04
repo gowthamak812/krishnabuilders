@@ -1,0 +1,71 @@
+.services {
+    .service-item {
+        padding: 40px;
+        background: white;
+        height: 100%;
+
+
+        h3 {
+            color: var(--body);
+            font-weight: 700;
+            margin: 0 0 20px 0;
+            padding-bottom: 8px;
+            font-size: 22px;
+            position: relative;
+            border-bottom: 4px solid #f5f6f7;
+            transition: 0.3s;
+            color: darkslategrey;
+        }
+
+        .icon {
+            display: inline-block;
+            position: relative;
+
+            i {
+                color: grey;
+                font-size: 40px;
+                transition: ease-in-out 0.3s;
+                z-index: 2;
+                position: relative;
+                line-height: 1.8;
+            }
+        }
+
+        .bi {
+            display: inline-block;
+            font-size: 1rem;
+        }
+
+        .circle {
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            transform: translate(-50%, -50%);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #f5f6f7;
+            transition: background-color 0.3s ease;
+        }
+
+        .readmore {
+            margin-top: 15px;
+            display: inline-block;
+            text-decoration: none;
+            color: red;
+            font-size: 14px;
+        }
+
+        &:hover {
+            h3 {
+                border-bottom: 4px solid #FF6666;
+            }
+
+            .circle {
+                background-color: red;
+                opacity: 0.6;
+            }
+        }
+
+    }
+}
