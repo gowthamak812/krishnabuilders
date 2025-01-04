@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import bedroomIcon from '../../../images/icons/bedroom.svg';
 import bathRoomIcon from '../../../images/icons/bathroom.svg';
-import waterPipeIcon from '../../../images/icons/water-pipe.svg';
 import area from '../../../images/icons/area.svg';
 import carParking from '../../../images/icons/car-parking.svg';
 import './result.scss';
