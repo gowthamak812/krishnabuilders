@@ -13,7 +13,8 @@ export default defineConfig({
     force: true,
     esbuildOptions: {
       loader: {
-        '.ts': 'tsx'
+        '.ts': 'tsx',
+        '.js':'jsx'
       },
     },
   },

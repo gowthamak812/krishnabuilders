@@ -241,22 +241,64 @@ body.offcanvas-open {
 .banner {
     overflow-x: hidden;
     position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     .banner-content {
         z-index: 5;
         position: absolute;
         width: 100%;
-        max-width: 1200px;
-        padding: 10px 20px;
+        max-width: 1280px;
+        padding: 20px;
         color: white;
-        top: 70%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+
+        .banner-text {
+            text-align: center;
+            max-width: 800px;
+
+            h1 {
+                font-size: 3.5rem;
+                font-weight: 700;
+                margin-bottom: 1.5rem;
+                line-height: 1.2;
+                text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+                @media (max-width: 768px) {
+                    font-size: 2.5rem;
+                }
+            }
+
+            p {
+                font-size: 1.25rem;
+                margin-bottom: 0;
+                line-height: 1.6;
+                text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+
+                @media (max-width: 768px) {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+
+        .banner-search {
+            width: 100%;
+        }
     }
 
     .image-container {
         position: relative;
         overflow: hidden;
+        width: 100%;
+        height: 100vh;
     }
 
     .image-container::before {
@@ -266,7 +308,7 @@ body.offcanvas-open {
         left: 0;
         width: 100%;
         height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
         z-index: 3;
     }
 
@@ -277,6 +319,15 @@ body.offcanvas-open {
         position: relative;
         z-index: 2;
         object-fit: cover;
+    }
+}
+
+@media (max-width: 991px) {
+    .banner {
+        .banner-content {
+            gap: 2rem;
+            padding: 15px;
+        }
     }
 }
 

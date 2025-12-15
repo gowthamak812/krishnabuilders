@@ -1,92 +1,248 @@
 [
     {
         "id": 1,
-        "title": "Stunning 5-Bedroom House",
-        "price": "£4,500,000",
-        "description": "This is a beautiful property located in a prime area with modern amenities.",
-        "bedrooms": 5,
-        "bathrooms": 6,
-        "kitchen": "State-of-the-art Kitchen",
-        "garden": "Large Garden",
-        "gym": "Home Gym",
-        "area": "1000 sqft",
-        "largeImage": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg",
-        "thumbnail1": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg",
-        "thumbnail2": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg"
+        "title": "Luxurious 4 BHK Villa in Whitefield",
+        "propertyType": "Villa",
+        "status": "Ready to Move",
+        "price": "₹2.85 Crore",
+        "pricePerSqft": "₹8,500",
+        "area": "3350 sqft",
+        "builtUpArea": "3350 sqft",
+        "carpetArea": "2850 sqft",
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "balconies": 3,
+        "parking": 2,
+        "facing": "East",
+        "floor": "Ground + 2 Floors",
+        "totalFloors": 3,
+        "furnishing": "Semi-Furnished",
+        "ageOfProperty": "New Construction",
+        "possession": "Immediate",
+        "reraNumber": "PRM/KA/RERA/1251/446/PR/171120/003789",
+        "description": "Experience luxury living in this stunning 4 BHK independent villa located in the heart of Whitefield, Bangalore's premier IT hub. This meticulously designed property offers spacious rooms, modern amenities, and a perfect blend of comfort and elegance.\\n\\nThe villa features high-quality Italian marble flooring, modular kitchen with premium fittings, and large windows that allow abundant natural light. The master bedroom includes a walk-in closet and an attached bathroom with premium fixtures.\\n\\nSituated in a gated community with 24/7 security, this property is perfect for families looking for a peaceful yet well-connected location. The villa comes with a private garden, terrace, and ample parking space.",
+        "address": "Whitefield Main Road",
+        "locality": "Whitefield",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560066",
+        "landmarks": [
+            "ITPL - 2 km",
+            "Phoenix Marketcity - 3 km",
+            "Whitefield Railway Station - 1.5 km"
+        ],
+        "maintenanceCharges": "₹8,500/month",
+        "images": [
+            "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
+            "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
+            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
+            "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800",
+            "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800",
+            "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800",
+            "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800",
+            "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800"
+        ],
+        "largeImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
+        "thumbnail1": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400",
+        "thumbnail2": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400",
+        "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800",
+        "virtualTour": "",
+        "features": {
+            "interior": [
+                "Modular Kitchen with Chimney",
+                "Italian Marble Flooring",
+                "False Ceiling with LED Lights",
+                "Premium Bathroom Fixtures",
+                "Walk-in Closet",
+                "Study Room",
+                "Pooja Room",
+                "Wooden Flooring in Bedrooms",
+                "Designer Tiles in Kitchen",
+                "Granite Countertops",
+                "Built-in Wardrobes",
+                "Video Door Phone",
+                "Intercom Facility",
+                "High-Quality Paint",
+                "Large Windows with Grills"
+            ],
+            "exterior": [
+                "Private Garden - 500 sqft",
+                "Spacious Terrace",
+                "Covered Parking for 2 Cars",
+                "Compound Wall with Gate",
+                "Rainwater Harvesting",
+                "Solar Water Heater",
+                "External Lighting",
+                "Paved Driveway"
+            ],
+            "amenities": [
+                "24/7 Security with Guards",
+                "Full Power Backup",
+                "Borewell Water Supply",
+                "Gated Community",
+                "CCTV Surveillance",
+                "Visitor Parking",
+                "Landscaped Gardens",
+                "Children's Play Area",
+                "Fully Equipped Gym",
+                "Swimming Pool with Deck",
+                "Clubhouse with Indoor Games",
+                "Jogging Track",
+                "Yoga & Meditation Area",
+                "Multipurpose Hall",
+                "Badminton Court",
+                "Basketball Court",
+                "Amphitheater",
+                "Senior Citizen Sitout",
+                "Convenience Store",
+                "Maintenance Staff",
+                "Waste Management System",
+                "Fire Safety Equipment"
+            ]
+        },
+        "nearbyPlaces": {
+            "schools": [
+                "Delhi Public School - 1 km",
+                "Ryan International - 2 km"
+            ],
+            "hospitals": [
+                "Columbia Asia Hospital - 2.5 km",
+                "Manipal Hospital - 3 km"
+            ],
+            "shopping": [
+                "Phoenix Marketcity - 3 km",
+                "VR Bengaluru - 4 km"
+            ],
+            "transport": [
+                "Whitefield Metro Station - 2 km",
+                "Kempegowda Airport - 35 km"
+            ]
+        },
+        "agent": {
+            "name": "Krishna Builders",
+            "phone": "+91 98765 43210",
+            "email": "sales@krishnabuilders.com"
+        },
+        "slug": "luxurious-4bhk-villa-whitefield-bangalore"
     },
     {
-        "id": 1,
-        "title": "Stunning 5-Bedroom House",
-        "price": "£4,500,000",
-        "description": "This is a beautiful property located in a prime area with modern amenities.",
-        "bedrooms": 5,
-        "bathrooms": 6,
-        "kitchen": "State-of-the-art Kitchen",
-        "garden": "Large Garden",
-        "gym": "Home Gym",
-        "area": "1000 sqft",
-        "largeImage": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg",
-        "thumbnail1": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg",
-        "thumbnail2": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg"
-    },
-    {
-        "id": 1,
-        "title": "Stunning 5-Bedroom House",
-        "price": "£4,500,000",
-        "description": "This is a beautiful property located in a prime area with modern amenities.",
-        "bedrooms": 5,
-        "bathrooms": 6,
-        "kitchen": "State-of-the-art Kitchen",
-        "garden": "Large Garden",
-        "gym": "Home Gym",
-        "area": "1000 sqft",
-        "largeImage": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg",
-        "thumbnail1": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg",
-        "thumbnail2": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg"
-    },
-    {
-        "id": 1,
-        "title": "Stunning 5-Bedroom House",
-        "price": "£4,500,000",
-        "description": "This is a beautiful property located in a prime area with modern amenities.",
-        "bedrooms": 5,
-        "bathrooms": 6,
-        "kitchen": "State-of-the-art Kitchen",
-        "garden": "Large Garden",
-        "gym": "Home Gym",
-        "area": "1000 sqft",
-        "largeImage": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg",
-        "thumbnail1": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg",
-        "thumbnail2": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg"
-    },
-    {
-        "id": 1,
-        "title": "Stunning 5-Bedroom House",
-        "price": "£4,500,000",
-        "description": "This is a beautiful property located in a prime area with modern amenities.",
-        "bedrooms": 5,
-        "bathrooms": 6,
-        "kitchen": "State-of-the-art Kitchen",
-        "garden": "Large Garden",
-        "gym": "Home Gym",
-        "area": "1000 sqft",
-        "largeImage": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg",
-        "thumbnail1": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg",
-        "thumbnail2": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg"
-    },
-    {
-        "id": 1,
-        "title": "Stunning 5-Bedroom House",
-        "price": "£4,500,000",
-        "description": "This is a beautiful property located in a prime area with modern amenities.",
-        "bedrooms": 5,
-        "bathrooms": 6,
-        "kitchen": "State-of-the-art Kitchen",
-        "garden": "Large Garden",
-        "gym": "Home Gym",
-        "area": "1000 sqft",
-        "largeImage": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg",
-        "thumbnail1": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg",
-        "thumbnail2": "https://ggfx-rolstons.s3.eu-west-2.amazonaws.com/x.prod/property/663e10f07b0762c5072e140b/images/rls/live/pictures/RLS/24/480x370/RLS240413_53.jpg"
+        "id": 2,
+        "title": "Modern 3 BHK Apartment in Koramangala",
+        "propertyType": "Apartment",
+        "status": "Ready to Move",
+        "price": "₹1.65 Crore",
+        "pricePerSqft": "₹9,200",
+        "area": "1795 sqft",
+        "builtUpArea": "1795 sqft",
+        "carpetArea": "1520 sqft",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "balconies": 2,
+        "parking": 2,
+        "facing": "North",
+        "floor": "12th Floor",
+        "totalFloors": 18,
+        "furnishing": "Fully Furnished",
+        "ageOfProperty": "1-2 Years",
+        "possession": "Immediate",
+        "reraNumber": "PRM/KA/RERA/1251/446/PR/180520/002456",
+        "description": "Discover contemporary living in this beautifully designed 3 BHK apartment in the vibrant neighborhood of Koramangala. This high-rise apartment offers breathtaking city views and modern amenities for a comfortable lifestyle.\\n\\nThe apartment features premium vitrified tiles, a fully equipped modular kitchen with branded appliances, and spacious bedrooms with ample storage. The living area is designed to maximize natural light and ventilation.\\n\\nLocated in one of Bangalore's most sought-after localities, this property offers easy access to restaurants, cafes, shopping centers, and entertainment hubs. The building includes state-of-the-art amenities including a rooftop infinity pool, gym, and party hall.",
+        "address": "80 Feet Road, Koramangala 4th Block",
+        "locality": "Koramangala",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560034",
+        "landmarks": [
+            "Forum Mall - 1 km",
+            "Sony Signal - 500m",
+            "Koramangala Metro - 1.2 km"
+        ],
+        "maintenanceCharges": "₹6,500/month",
+        "images": [
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
+            "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800",
+            "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800",
+            "https://images.unsplash.com/photo-1560448205-17d3a46c84de?w=800",
+            "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800",
+            "https://images.unsplash.com/photo-1560185009-dddeb820c7b7?w=800",
+            "https://images.unsplash.com/photo-1560185127-6a7e6c4c7b3f?w=800",
+            "https://images.unsplash.com/photo-1560185128-c1c2e8d1e6a8?w=800"
+        ],
+        "largeImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
+        "thumbnail1": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400",
+        "thumbnail2": "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=400",
+        "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800",
+        "virtualTour": "",
+        "features": {
+            "interior": [
+                "Modular Kitchen with Hob & Chimney",
+                "Premium Vitrified Tiles",
+                "Wooden Flooring in Bedrooms",
+                "Premium Bathroom Fittings",
+                "Video Door Phone",
+                "Built-in Wardrobes",
+                "False Ceiling with Cove Lighting",
+                "Granite Kitchen Platform",
+                "Designer Tiles in Bathrooms",
+                "Intercom Facility",
+                "High-Speed Internet Ready",
+                "Smart Home Features",
+                "Utility Area"
+            ],
+            "exterior": [
+                "2 Spacious Balconies",
+                "Covered Parking for 2 Cars",
+                "Earthquake Resistant Structure",
+                "Rainwater Harvesting System"
+            ],
+            "amenities": [
+                "24/7 Security with CCTV",
+                "Full Power Backup",
+                "High-Speed Elevators",
+                "CCTV Surveillance",
+                "Visitor Parking",
+                "Landscaped Gardens",
+                "Children's Play Area",
+                "Fully Equipped Gym",
+                "Rooftop Infinity Pool",
+                "Clubhouse with Indoor Games",
+                "Jogging Track",
+                "Yoga & Meditation Center",
+                "Party Hall",
+                "Badminton Court",
+                "Table Tennis",
+                "Squash Court",
+                "Library & Reading Room",
+                "Intercom Facility",
+                "Maintenance Staff",
+                "Waste Disposal System",
+                "Fire Fighting Equipment",
+                "Concierge Service"
+            ]
+        },
+        "nearbyPlaces": {
+            "schools": [
+                "National Public School - 2 km",
+                "Inventure Academy - 3 km"
+            ],
+            "hospitals": [
+                "Manipal Hospital - 1.5 km",
+                "St. John's Hospital - 4 km"
+            ],
+            "shopping": [
+                "Forum Mall - 1 km",
+                "Koramangala Social - 500m"
+            ],
+            "transport": [
+                "Koramangala Metro - 1.2 km",
+                "Kempegowda Airport - 40 km"
+            ]
+        },
+        "agent": {
+            "name": "Krishna Builders",
+            "phone": "+91 98765 43210",
+            "email": "sales@krishnabuilders.com"
+        },
+        "slug": "modern-3bhk-apartment-koramangala-bangalore"
     }
 ]
