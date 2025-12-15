@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate, Link, useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { Container, Button, Row, Col, Card, Badge, Spinner } from 'react-bootstrap';
 import bedroomIcon from '../../../images/icons/bedroom.svg';
 import bathRoomIcon from '../../../images/icons/bathroom.svg';
@@ -32,7 +32,6 @@ interface Property {
 }
 
 const PropertyResults: React.FC = () => {
-  const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const [properties, setProperties] = useState<Property[]>([]);
   const [filteredProperties, setFilteredProperties] = useState<Property[]>([]);
